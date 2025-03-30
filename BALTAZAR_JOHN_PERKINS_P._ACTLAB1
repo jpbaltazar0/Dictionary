@@ -1,0 +1,45 @@
+#include <iostream>
+#include <string>
+
+int main() 
+{ std::string input; std::cout << "Say: "; std::getline(std::cin, input);
+
+if (input == "ABACUS")
+    std::cout << "INVENTED BY THE CHINESE" << std::endl;
+else if (input == "NAPIERS BONES")
+    std::cout << "MANUALLY OPERATED CALCULATING DEVICE" << std::endl;
+else if (input == "JOHN NAPIER")
+    std::cout << "INVENTED NAPIERS BONES" << std::endl;
+else if (input == "PASCALINE")
+    std::cout << "ALSO CALLED ARITHMETIC MACHINE OR ADDING MACHINE" << std::endl;
+else if (input == "BLAISE PASCAL")
+    std::cout << "INVENTED THE PASCALINE" << std::endl;
+else if (input == "LEIBNIZ WHEEL")
+    std::cout << "A DIGITAL MECHANICAL CALCULATOR" << std::endl;
+else if (input == "GOTTFRIED WILHELM LEIBNIZ")
+    std::cout << "INVENTED THE LEIBNIZ WHEEL" << std::endl;
+else if (input == "ANALYTICAL ENGINE")
+    std::cout << "USE PUNCH CARDS AS INPUT" << std::endl;
+else if (input == "CHARLES BABBAGE")
+    std::cout << "INVENTED THE ANALYTICAL ENGINE" << std::endl;
+else if (input == "TABULATING MACHINE")
+    std::cout << "A MECHANICAL TABULATOR THAT WAS BASED ON PUNCH CARDS" << std::endl;
+else if (input == "HERMAN HOLLERITH")
+    std::cout << "INVENTED THE MECHANICAL TABULATOR" << std::endl;
+else if (input == "MARK 1")
+    std::cout << "FIRST PROGRAMMABLE DIGITAL COMPUTER" << std::endl;
+else if (input == "HOWARD AIKEN")
+    std::cout << "INVENTED THE MARK 1" << std::endl;
+else if (input == "FIRST GENERATION COMPUTERS")
+    std::cout << "THESE MACHINES ARE SLOW HUGE AND EXPENSIVE" << std::endl;
+else if (input == "SECOND GENERATION COMPUTERS")
+    std::cout << "COBOL AND FORTRAN ARE USED AS ASSEMBLY LANGUAGES" << std::endl;
+else if (input == "THIRD GENENERATION COMPUTERS")
+    std::cout << "ARE MORE RELIABLE EFFICIENT AND SMALLER IN SIZE" << std::endl;
+else
+    std::cout << "No data available for the given input." << std::endl;
+
+return 0;
+
+}
+
